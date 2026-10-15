@@ -1,0 +1,6 @@
+Model Accuracy Results
+----------------------
+mAP50: 0.8743
+mAP50-95: 0.7847
+Precision: 0.8950
+Recall: 0.9179
