@@ -1,0 +1,16 @@
+# ── Core ─────────────────────────────────────────────────────────────────────
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+ultralytics>=8.2.0
+opencv-python-headless>=4.9.0.80
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# ── API ───────────────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+# ── Dataset download (optional) ───────────────────────────────────────────────
+roboflow>=1.1.0
